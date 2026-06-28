@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f1115;
+  color: white;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #151922;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff9900;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #1a1f2b, #0f1115);
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+/* BUTTONS */
+.btn {
+  background: #ff9900;
+  padding: 12px 25px;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-small {
+  display: inline-block;
+  margin-top: 10px;
+  background: #ff9900;
+  padding: 8px 15px;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* PRODUCTS */
+#products {
+  padding: 60px;
+}
+
+#products h2 {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1a1f2b;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #151922;
+  margin-top: 50px;
+}
